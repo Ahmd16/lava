@@ -1,0 +1,197 @@
+@media only screen and (max-width: 1300px) {
+nav{
+    margin-left: 10%;
+}
+
+    .HomeContent {
+        margin-left: 10%;
+        
+    }
+    .navbarimagebox{
+        z-index: -1;
+            }
+}
+
+@media only screen and (max-width:1100px){
+    .HomeContent {
+        margin-left: 5%;
+        
+    }
+    nav{
+        margin-left: 5%;
+    }
+    .menu{
+        margin-left: -70px;
+    }
+    .navbarimagebox{
+  z-index: -1;
+      }
+      .logo{
+        margin-left: 0px;
+      }
+}
+@media only screen and (max-width: 960px){
+    nav{
+        width: 100%;
+justify-content: center;
+margin-left: 0px;
+align-items: center;
+      }
+      .menu{
+        margin-left: 0px;
+    }
+    .dropbtn {
+        background-color: #4C4C4C;
+        color: white;
+        padding: 12px 216px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        margin-top: 10px;
+        text-transform: uppercase;
+      
+      
+      }
+      
+      /* Dropdown button on hover & focus */
+      .dropbtn:hover,
+      .dropbtn:focus {
+        background-color: #2980B9;
+      }
+      
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {
+        background-color: #ddd
+      }
+      #menuimg {
+        z-index: 1;
+        margin-left: -205px;
+        margin-top: 23px;
+        position: absolute;
+      }
+      .logo{
+        display: none;
+      }.menu{
+        display: none;
+      }
+      .navbarimagebox{
+        display: none;
+      }
+      .HomeContent{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0px;
+        align-items: center;
+      }
+}
+
+  
+
+/* @media only screen and (max-width: 700px) {
+
+
+
+    .row {
+        align-items: baseline;
+        justify-content: space-around;
+    }
+
+    .row-1 {
+        margin-top: 5%;
+    }
+
+    .row-2 {
+        margin-top: 15%;
+    }
+
+    .row-3 {
+        margin-top: 15%;
+    }
+
+    .list-about {
+        margin-right: 35%;
+        bottom: 30%;
+        align-items: baseline;
+    }
+
+    .list-about-background {
+        margin-top: 10%;
+        width: 200%;
+        top: 30%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pic {
+        align-items: baseline;
+    }
+
+    .pic1 {
+        align-items: baseline;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-content table {
+        display: flex;
+    }
+} */
+
+@media only screen and (max-width:510px){
+    .dropdown{
+        width: 100%;
+        display: flex;
+justify-content: center;
+    }
+    .dropbtn{
+/* padding: 12px  98px; */
+
+text-align: center;
+/* box-sizing: border-box; */
+width: 100%;
+    }
+    #menuimg {
+        margin-left: 160px;
+        margin-top: 20px;
+}
+.HomeContent h1 {
+    font-size: 32px;
+    text-align: center;
+}
+.HomeContent br{
+    display: none;
+}
+.HomePageButton{
+    margin-top: 10%;
+}
+}
